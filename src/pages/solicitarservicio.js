@@ -178,38 +178,6 @@ const SolicitarServicio = () => {
   }
 };
 
-  //const numOrdenServicio = () => {
- //   try {
- //     fetch(endpoints.GETNumSolicitud)
- //     .then((response) => response.json())
- //     .then((data) => setgetNumSol(data))
- //     .catch((error) => console.log(error));
- //     console.log(getNumSol)
- //   } catch (error) {
- //     console.error(error)
- //   }
- // }
-
- //   const HacedoresAptos = (CityFinal, ServiFinal, formData) => {
- //     const CityService = CityFinal[0];
- //     const ServicioService = ServiFinal[0];
- //     const MontoService = formData.get('monto');
-//
- //     try {
- //       fetch(endpoints.GETHacedoresAptos+ CityService + "&" + ServicioService + "&" + MontoService )
- //       .then((response) => response.json())
- //       .then((data) => setlistAptos(data))
- //       .catch((error) => console.log(error));
- //       console.log(listAptos)
- //     } catch (error) {
- //       console.error(error)
- //     }
-//
- //   }
-
-
-
-
   return (
     <>
       <div className="container">

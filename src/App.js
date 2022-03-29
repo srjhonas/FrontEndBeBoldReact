@@ -9,7 +9,7 @@ import Inicio from './pages/inicio';
 import HomeCliente from './pages/homecliente';
 import RegistroCliente from './pages/registrocliente';
 import RegistroHacedor from './pages/registrohacedor';
-import ConfigHacedor from './confighacedor';
+import ConfigHacedor from './pages/confighacedor';
 import ServiciosAsignados from './pages/serviciosasignados';
 
 import useInitialState from './hooks/useInitialState';
